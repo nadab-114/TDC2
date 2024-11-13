@@ -1,5 +1,5 @@
 @include('admin.adminsidebar')
-<body>
+<body class="flex">
     <!-- Table Section -->
 <div class="max-w-[85rem] px-4 py-10 sm:px-6 lg:px-8 lg:py-14 mx-auto">
     <!-- Card -->
@@ -17,7 +17,7 @@
                   Add modules, edit and more.
                 </p>
               </div>
-  
+
               <div>
                 <div class="inline-flex gap-x-2">
                   <a class="py-2 px-3 inline-flex items-center gap-x-2 text-sm font-medium rounded-lg border border-transparent bg-blue-600 text-white hover:bg-blue-700 focus:outline-none focus:bg-blue-700 disabled:opacity-50 disabled:pointer-events-none" href="#">
@@ -28,7 +28,7 @@
               </div>
             </div>
             <!-- End Header -->
-  
+
             <!-- Table -->
             <table class="min-w-full divide-y divide-gray-200">
               <thead class="bg-gray-50">
@@ -40,7 +40,7 @@
                       </span>
                     </label>
                   </th>
-  
+
                   <th scope="col" class="ps-6 lg:ps-3 xl:ps-0 pe-6 py-3 text-start">
                     <div class="flex items-center gap-x-2">
                       <span class="text-xs font-semibold uppercase tracking-wide text-gray-800">
@@ -48,7 +48,7 @@
                       </span>
                     </div>
                   </th>
-  
+
                   <th scope="col" class="px-6 py-3 text-start">
                     <div class="flex items-center gap-x-2">
                       <span class="text-xs font-semibold uppercase tracking-wide text-gray-800">
@@ -56,7 +56,7 @@
                       </span>
                     </div>
                   </th>
-  
+
                   <th scope="col" class=" pe-8 py-3 text-start">
                     <div class="flex items-center gap-x-2">
                       <span class="text-xs font-semibold uppercase tracking-wide text-gray-800">
@@ -64,7 +64,7 @@
                       </span>
                     </div>
                   </th>
-  
+
                   <th scope="col" class="px-6 py-3 text-start">
                     <div class="flex items-center gap-x-2">
                       <span class="text-xs font-semibold uppercase tracking-wide text-gray-800">
@@ -72,7 +72,7 @@
                       </span>
                     </div>
                   </th>
-  
+
                   <th scope="col" class="px-6 py-3 text-start">
                     <div class="flex items-center gap-x-2">
                       <span class="text-xs font-semibold uppercase tracking-wide text-gray-800">
@@ -80,7 +80,7 @@
                       </span>
                     </div>
                   </th>
-  
+
                   <th scope="col" class="px-6 py-3 text-end"></th>
                 </tr>
               </thead>
