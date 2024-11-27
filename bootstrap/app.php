@@ -14,7 +14,9 @@ return Application::configure(basePath: dirname(__DIR__))
         
         $middleware->alias([
             'admin' => \App\Http\Middleware\Admin::class,
-
+            \App\Http\Controllers\AdminQuizController::class,
+            \App\Http\Controllers\AdminQuestionController::class,
+            \App\Http\Controllers\AdminModuleController::class,
         ]);
 
     })
